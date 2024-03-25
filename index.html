@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+    <title>Twitter</title>
+</head>
+<body>
+    <!-- sidebar-starts -->
+    <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebaroption active">
+            <span class="material-icons">home</span>
+            <h2>Home</h2>
+        </div>
+        <div class="sidebaroption">
+            <span class="material-icons">search</span>
+            <h2>Explore</h2>
+        </div>
+        <div class="sidebaroption">
+            <span class="material-icons">notifications_none</span>
+            <h2>Notification</h2>
+        </div>
+        <div class="sidebaroption">
+            <span class="material-icons">mail_outline</span>
+            <h2>Messages</h2>
+        </div>
+        <div class="sidebaroption">
+            <span class="material-icons">bookmark_border</span>
+            <h2>Bookmarks</h2>
+        </div>
+        <div class="sidebaroption">
+            <span class="material-icons">list_alt</span>
+            <h2>Lists</h2>
+        </div>
+        <div class="sidebaroption">
+            <span class="material-icons">person_outline</span>
+            <h2>Profile</h2>
+        </div>
+        <div class="sidebaroption">
+            <span class="material-icons">more_horiz</span>
+            <h2>More</h2>
+        </div>
+        <button class="sidebar-tweet">Tweet</button>    
+    </div>
+    <!-- sidebar-ends -->
+<!-- feed-starts -->
+<div class="feed">
+    <div class="feed-header">
+        <h2>Home</h2>
+    </div>
+    <!-- tweetbox-starts -->
+    <div class="tweetbox">
+        <form>
+            <div class="tweetbox-input">
+                <img src="./assets/img/profile.png" alt="">
+                <input type="text" placeholder="What's happening?">
+            </div>
+            <button class="tweetbox-tweetbutton">Tweet</button>
+        </form>
+    </div>
+    <!-- tweetbox-ends -->
+    <!-- post-starts -->
+    <div class="post">
+        <div class="post-avatar">
+            <img src="./assets/img/profile.png" alt="">
+        </div>
+        <div class="post-body">
+            <div class="post-header">
+                <div class="post-headertext">
+                    <h3>Mamodike Rakgoale
+                        <span class="post-headerspecial">
+                            <span class="material-icons post-badge">verified</span>@Mamodike
+                        </span>
+                    </h3>
+                </div>
+                <div class="post-headerdescription">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <img src="./assets/img/car.jpg" alt="">
+            <div class="post-footer">
+                <span class="material-icons">repeat</span>
+                <span class="material-icons">favorite_border</span>
+                <span class="material-icons">publish</span>
+            </div>
+        </div>
+    </div>
+    <div class="post">
+        <div class="post-avatar">
+            <img src="./assets/img/profile.png" alt="">
+        </div>
+        <div class="post-body">
+            <div class="post-header">
+                <div class="post-headertext">
+                    <h3>Mamodike Rakgoale
+                        <span class="post-headerspecial">
+                            <span class="material-icons post-badge">verified</span>@Mamodike
+                        </span>
+                    </h3>
+                </div>
+                <div class="post-headerdescription">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <img src="./assets/img/house.webp" alt="">
+            <div class="post-footer">
+                <span class="material-icons">repeat</span>
+                <span class="material-icons">favorite_border</span>
+                <span class="material-icons">publish</span>
+            </div>
+        </div>
+    </div>
+    <div class="post">
+        <div class="post-avatar">
+            <img src="./assets/img/profile.png" alt="">
+        </div>
+        <div class="post-body">
+            <div class="post-header">
+                <div class="post-headertext">
+                    <h3>Mamodike Rakgoale
+                        <span class="post-headerspecial">
+                            <span class="material-icons post-badge">verified</span>@Mamodike
+                        </span>
+                    </h3>
+                </div>
+                <div class="post-headerdescription">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <img src="./assets/img/puppies.webp" alt="">
+            <div class="post-footer">
+                <span class="material-icons">repeat</span>
+                <span class="material-icons">favorite_border</span>
+                <span class="material-icons">publish</span>
+            </div>
+        </div>
+    </div>
+    <!-- post-ends -->
+</div>
+<!-- feed-ends -->
+ <!-- widgets-starts -->
+ <div class="widgets">
+    <div class="widgets-input">
+        <span class="material-icons widgets-searchicon">search</span>
+        <input type=" text" placeholder="Search Twitter">
+    </div>
+    <div class="widgets-widgetscontainer">
+        <h2>What's happening?</h2>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">At dawn from the gateway to Mars, the launch of Starship’s second flight test <a href="https://t.co/ffKnsVKwG4">pic.twitter.com/ffKnsVKwG4</a></p>&mdash; SpaceX (@SpaceX) <a href="https://twitter.com/SpaceX/status/1732824684683784516?ref_src=twsrc%5Etfw">December 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>
+<!-- widgets-ends -->
+</body>
+</html>
